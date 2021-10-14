@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="POMFramwork" verbose="1">
+ <test name="wikipage1">
+  <classes>
+  <class name="com.qa.wiki.tests.HomePageTest"></class>
+  </classes>
+ </test>
+  <test name="wiki2">
+  <classes>
+  <class name="com.qa.wiki.tests.SearchPageTest"></class>
+  </classes>
+ </test>
+  <test name="wiki3">
+  <classes>
+  <class name="com.qa.wiki.tests.CreateAccountPageTest"></class>
+  </classes>
+ </test>
+
+ <test name="wiki4">
+  <classes>
+  <class name="com.qa.wiki.tests.LoginPageTest"></class>
+  </classes>
+ </test>
+
+</suite>

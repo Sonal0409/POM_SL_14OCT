@@ -1,29 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-14T13:27:00 IST" name="Default suite" finished-at="2021-10-14T13:27:07 IST" duration-ms="7079">
+  <suite started-at="2021-10-14T14:44:20 IST" name="POMFramwork" finished-at="2021-10-14T14:44:49 IST" duration-ms="28569">
     <groups>
     </groups>
-    <test started-at="2021-10-14T13:27:00 IST" name="Default test" finished-at="2021-10-14T13:27:07 IST" duration-ms="7079">
-      <class name="com.qa.wiki.tests.SearchPageTest">
-        <test-method is-config="true" signature="startbrowser()[pri:0, instance:com.qa.wiki.tests.SearchPageTest@10d307f1]" started-at="2021-10-14T13:27:00 IST" name="startbrowser" finished-at="2021-10-14T13:27:05 IST" duration-ms="5569" status="PASS">
+    <test started-at="2021-10-14T14:44:20 IST" name="wikipage1" finished-at="2021-10-14T14:44:26 IST" duration-ms="5650">
+      <class name="com.qa.wiki.tests.HomePageTest">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:com.qa.wiki.tests.HomePageTest@73700b80]" started-at="2021-10-14T14:44:20 IST" name="startbrowser" finished-at="2021-10-14T14:44:23 IST" duration-ms="2974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startbrowser -->
-        <test-method signature="clciklinkTest()[pri:0, instance:com.qa.wiki.tests.SearchPageTest@10d307f1]" started-at="2021-10-14T13:27:05 IST" name="clciklinkTest" finished-at="2021-10-14T13:27:07 IST" duration-ms="1305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clciklinkTest -->
-        <test-method signature="titleTest()[pri:0, instance:com.qa.wiki.tests.SearchPageTest@10d307f1]" started-at="2021-10-14T13:27:07 IST" name="titleTest" finished-at="2021-10-14T13:27:07 IST" duration-ms="5" status="PASS">
+        <test-method signature="titleTest()[pri:49, instance:com.qa.wiki.tests.HomePageTest@73700b80]" started-at="2021-10-14T14:44:23 IST" name="titleTest" finished-at="2021-10-14T14:44:23 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.wiki.tests.SearchPageTest@10d307f1]" started-at="2021-10-14T13:27:07 IST" name="closeBrowser" finished-at="2021-10-14T13:27:07 IST" duration-ms="165" status="PASS">
+        <test-method signature="inputTest()[pri:50, instance:com.qa.wiki.tests.HomePageTest@73700b80]" started-at="2021-10-14T14:44:23 IST" name="inputTest" finished-at="2021-10-14T14:44:26 IST" duration-ms="2601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTest -->
+      </class> <!-- com.qa.wiki.tests.HomePageTest -->
+    </test> <!-- wikipage1 -->
+    <test started-at="2021-10-14T14:44:26 IST" name="wiki2" finished-at="2021-10-14T14:44:32 IST" duration-ms="6427">
+      <class name="com.qa.wiki.tests.SearchPageTest">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:com.qa.wiki.tests.SearchPageTest@18d87d80]" started-at="2021-10-14T14:44:26 IST" name="startbrowser" finished-at="2021-10-14T14:44:31 IST" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="clciklinkTest()[pri:0, instance:com.qa.wiki.tests.SearchPageTest@18d87d80]" started-at="2021-10-14T14:44:31 IST" name="clciklinkTest" finished-at="2021-10-14T14:44:32 IST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clciklinkTest -->
+        <test-method signature="titleTest()[pri:0, instance:com.qa.wiki.tests.SearchPageTest@18d87d80]" started-at="2021-10-14T14:44:32 IST" name="titleTest" finished-at="2021-10-14T14:44:32 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.wiki.tests.SearchPageTest@18d87d80]" started-at="2021-10-14T14:44:32 IST" name="closeBrowser" finished-at="2021-10-14T14:44:32 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.qa.wiki.tests.SearchPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- wiki2 -->
+    <test started-at="2021-10-14T14:44:32 IST" name="wiki3" finished-at="2021-10-14T14:44:40 IST" duration-ms="7865">
+      <class name="com.qa.wiki.tests.CreateAccountPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.qa.wiki.tests.CreateAccountPageTest@7bd4937b]" started-at="2021-10-14T14:44:32 IST" name="openBrowser" finished-at="2021-10-14T14:44:38 IST" duration-ms="6372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="CreateAccountTest()[pri:0, instance:com.qa.wiki.tests.CreateAccountPageTest@7bd4937b]" started-at="2021-10-14T14:44:38 IST" name="CreateAccountTest" finished-at="2021-10-14T14:44:39 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccountTest -->
+        <test-method signature="loginclickTest()[pri:0, instance:com.qa.wiki.tests.CreateAccountPageTest@7bd4937b]" started-at="2021-10-14T14:44:39 IST" name="loginclickTest" finished-at="2021-10-14T14:44:40 IST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginclickTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.wiki.tests.CreateAccountPageTest@7bd4937b]" started-at="2021-10-14T14:44:40 IST" name="CloseBrowser" finished-at="2021-10-14T14:44:40 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.wiki.tests.CreateAccountPageTest -->
+    </test> <!-- wiki3 -->
+    <test started-at="2021-10-14T14:44:40 IST" name="wiki4" finished-at="2021-10-14T14:44:49 IST" duration-ms="8544">
+      <class name="com.qa.wiki.tests.LoginPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.qa.wiki.tests.LoginPageTest@52af26ee]" started-at="2021-10-14T14:44:40 IST" name="openBrowser" finished-at="2021-10-14T14:44:48 IST" duration-ms="8140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginTest()[pri:0, instance:com.qa.wiki.tests.LoginPageTest@52af26ee]" started-at="2021-10-14T14:44:48 IST" name="loginTest" finished-at="2021-10-14T14:44:49 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.qa.wiki.tests.LoginPageTest -->
+    </test> <!-- wiki4 -->
+  </suite> <!-- POMFramwork -->
 </testng-results>

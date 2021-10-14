@@ -36,6 +36,7 @@ public class HomePageTest extends TestBase{
 	public void inputTest()
 	{
 		hp.Enterinput("Selenium Automation");
+		driver.close();
 	}
 	
 	
